@@ -5,9 +5,9 @@
     "web"
   ],
   "scripts": {
-    "dev": "npm --workspace web run dev",
-    "build": "npm --workspace web run build",
-    "start": "npm --workspace web run start",
+    "dev": "node init && npm --workspace web run dev",
+    "build": "node init && npm --workspace web run build",
+    "start": "node init && npm --workspace web run start",
     "lint": "npm --workspace web run lint",
     "install:web": "npm --workspace web install",
     "reconcile": "npm --workspace web run reconcile"

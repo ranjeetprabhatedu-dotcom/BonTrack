@@ -2,7 +2,6 @@
 node_modules/
 
 # local environment
-.env.local
 web/.env.local
 
 # generated caches and local tooling state
@@ -23,3 +22,4 @@ web/scripts/add-party.mjs
 
 # OS/editor noise
 .DS_Store
+config.bat
